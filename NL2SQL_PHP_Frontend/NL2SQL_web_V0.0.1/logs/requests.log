@@ -1,0 +1,60 @@
+2025-05-08 16:21:06 - Request: GET /api/config - Client: 127.0.0.1
+2025-05-08 16:21:06 - Request: GET /api/examples - Client: 127.0.0.1
+2025-05-08 16:21:06 - Response: 200 - 99 bytes
+2025-05-08 16:21:06 - Response: 200 - 310 bytes
+2025-05-08 16:21:37 - Request: OPTIONS /api/test-connection - Client: 127.0.0.1
+2025-05-08 16:21:37 - Response: 200 - None bytes
+2025-05-08 16:21:37 - Request: POST /api/test-connection - Client: 127.0.0.1
+2025-05-08 16:21:37 - Response: 200 - 64 bytes
+2025-05-08 16:21:40 - Request: OPTIONS /api/config - Client: 127.0.0.1
+2025-05-08 16:21:40 - Response: 200 - None bytes
+2025-05-08 16:21:41 - Request: POST /api/config - Client: 127.0.0.1
+2025-05-08 16:21:41 - Response: 200 - 68 bytes
+2025-05-08 16:22:49 - Request: OPTIONS /api/config - Client: 127.0.0.1
+2025-05-08 16:22:49 - Response: 200 - None bytes
+2025-05-08 16:22:49 - Request: POST /api/config - Client: 127.0.0.1
+2025-05-08 16:22:49 - Response: 200 - 68 bytes
+2025-05-08 16:25:27 - Request: OPTIONS /api/execute-query - Client: 127.0.0.1
+2025-05-08 16:25:27 - Response: 200 - None bytes
+2025-05-08 16:25:28 - Request: POST /api/execute-query - Client: 127.0.0.1
+2025-05-08 16:25:28 - Response: 500 - 304 bytes
+2025-05-08 16:25:57 - Request: OPTIONS /api/test-connection - Client: 127.0.0.1
+2025-05-08 16:25:57 - Response: 200 - None bytes
+2025-05-08 16:25:58 - Request: POST /api/test-connection - Client: 127.0.0.1
+2025-05-08 16:25:58 - Response: 200 - 64 bytes
+2025-05-08 16:26:00 - Request: OPTIONS /api/config - Client: 127.0.0.1
+2025-05-08 16:26:00 - Response: 200 - None bytes
+2025-05-08 16:26:01 - Request: POST /api/config - Client: 127.0.0.1
+2025-05-08 16:26:01 - Response: 200 - 68 bytes
+2025-05-08 16:26:11 - Request: OPTIONS /api/config - Client: 127.0.0.1
+2025-05-08 16:26:11 - Response: 200 - None bytes
+2025-05-08 16:26:11 - Request: POST /api/config - Client: 127.0.0.1
+2025-05-08 16:26:11 - Response: 200 - 68 bytes
+2025-05-08 16:26:25 - Request: OPTIONS /api/execute-query - Client: 127.0.0.1
+2025-05-08 16:26:25 - Response: 200 - None bytes
+2025-05-08 16:26:26 - Request: POST /api/execute-query - Client: 127.0.0.1
+2025-05-08 16:26:26 - Response: 500 - 304 bytes
+2025-05-08 16:26:36 - Request: OPTIONS /api/execute-query - Client: 127.0.0.1
+2025-05-08 16:26:36 - Response: 200 - None bytes
+2025-05-08 16:26:37 - Request: POST /api/execute-query - Client: 127.0.0.1
+2025-05-08 16:26:37 - Response: 500 - 304 bytes
+2025-05-08 16:42:29 - Request: GET /api/config - Client: 127.0.0.1
+2025-05-08 16:42:29 - Request: GET /api/examples - Client: 127.0.0.1
+2025-05-08 16:42:29 - Response: 200 - 112 bytes
+2025-05-08 16:42:29 - Response: 200 - 310 bytes
+2025-05-08 16:42:35 - Request: OPTIONS /api/test-connection - Client: 127.0.0.1
+2025-05-08 16:42:35 - Response: 200 - None bytes
+2025-05-08 16:42:35 - Request: POST /api/test-connection - Client: 127.0.0.1
+2025-05-08 16:42:35 - Response: 200 - 64 bytes
+2025-05-08 16:42:43 - Request: OPTIONS /api/config - Client: 127.0.0.1
+2025-05-08 16:42:43 - Response: 200 - None bytes
+2025-05-08 16:42:43 - Request: POST /api/config - Client: 127.0.0.1
+2025-05-08 16:42:43 - Response: 200 - 68 bytes
+2025-05-08 16:42:52 - Request: OPTIONS /api/execute-query - Client: 127.0.0.1
+2025-05-08 16:42:52 - Response: 200 - None bytes
+2025-05-08 16:42:53 - Request: POST /api/execute-query - Client: 127.0.0.1
+2025-05-08 16:43:09 - Response: 200 - 1926 bytes
+2025-05-08 16:52:24 - Request: OPTIONS /api/execute-query - Client: 127.0.0.1
+2025-05-08 16:52:24 - Response: 200 - None bytes
+2025-05-08 16:52:24 - Request: POST /api/execute-query - Client: 127.0.0.1
+2025-05-08 16:52:28 - Response: 200 - 676 bytes

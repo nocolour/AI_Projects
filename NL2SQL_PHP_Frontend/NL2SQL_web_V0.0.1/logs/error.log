@@ -1,0 +1,223 @@
+2025-05-08 16:20:41 - INFO - Starting Flask app
+2025-05-08 16:20:42 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.10.10.67:5000
+2025-05-08 16:20:42 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-08 16:21:06 - INFO - Request: GET /api/config - Client: 127.0.0.1
+2025-05-08 16:21:06 - INFO - Request: GET /api/examples - Client: 127.0.0.1
+2025-05-08 16:21:06 - INFO - Response: 200 - 99 bytes
+2025-05-08 16:21:06 - INFO - Response: 200 - 310 bytes
+2025-05-08 16:21:06 - INFO - 127.0.0.1 - - [08/May/2025 16:21:06] "GET /api/config HTTP/1.1" 200 -
+2025-05-08 16:21:06 - INFO - 127.0.0.1 - - [08/May/2025 16:21:06] "GET /api/examples HTTP/1.1" 200 -
+2025-05-08 16:21:37 - INFO - Request: OPTIONS /api/test-connection - Client: 127.0.0.1
+2025-05-08 16:21:37 - INFO - Response: 200 - None bytes
+2025-05-08 16:21:37 - INFO - 127.0.0.1 - - [08/May/2025 16:21:37] "OPTIONS /api/test-connection HTTP/1.1" 200 -
+2025-05-08 16:21:37 - INFO - Request: POST /api/test-connection - Client: 127.0.0.1
+2025-05-08 16:21:37 - INFO - Response: 200 - 64 bytes
+2025-05-08 16:21:37 - INFO - 127.0.0.1 - - [08/May/2025 16:21:37] "POST /api/test-connection HTTP/1.1" 200 -
+2025-05-08 16:21:40 - INFO - Request: OPTIONS /api/config - Client: 127.0.0.1
+2025-05-08 16:21:40 - INFO - Response: 200 - None bytes
+2025-05-08 16:21:40 - INFO - 127.0.0.1 - - [08/May/2025 16:21:40] "OPTIONS /api/config HTTP/1.1" 200 -
+2025-05-08 16:21:41 - INFO - Request: POST /api/config - Client: 127.0.0.1
+2025-05-08 16:21:41 - INFO - Database connection pool initialized with size 5
+2025-05-08 16:21:41 - INFO - Response: 200 - 68 bytes
+2025-05-08 16:21:41 - INFO - 127.0.0.1 - - [08/May/2025 16:21:41] "POST /api/config HTTP/1.1" 200 -
+2025-05-08 16:22:49 - INFO - Request: OPTIONS /api/config - Client: 127.0.0.1
+2025-05-08 16:22:49 - INFO - Response: 200 - None bytes
+2025-05-08 16:22:49 - INFO - 127.0.0.1 - - [08/May/2025 16:22:49] "OPTIONS /api/config HTTP/1.1" 200 -
+2025-05-08 16:22:49 - INFO - Request: POST /api/config - Client: 127.0.0.1
+2025-05-08 16:22:49 - INFO - Database connection pool initialized with size 5
+2025-05-08 16:22:49 - INFO - Response: 200 - 68 bytes
+2025-05-08 16:22:49 - INFO - 127.0.0.1 - - [08/May/2025 16:22:49] "POST /api/config HTTP/1.1" 200 -
+2025-05-08 16:25:27 - INFO - Request: OPTIONS /api/execute-query - Client: 127.0.0.1
+2025-05-08 16:25:27 - INFO - Response: 200 - None bytes
+2025-05-08 16:25:27 - INFO - 127.0.0.1 - - [08/May/2025 16:25:27] "OPTIONS /api/execute-query HTTP/1.1" 200 -
+2025-05-08 16:25:28 - INFO - Request: POST /api/execute-query - Client: 127.0.0.1
+2025-05-08 16:25:28 - ERROR - Failed to generate SQL: The OpenAI client received an unexpected 'proxies' argument. Please ensure you are using the latest OpenAI Python SDK and do not pass 'proxies' to OpenAI(). Proxy support should be configured via environment variables (HTTP_PROXY/HTTPS_PROXY) only.
+Traceback (most recent call last):
+  File "c:\Project\NL2SQL_BI-main\NL2SQL_BI-main\PHP_Frontend\python_backend\app.py", line 498, in generate_sql
+    client = OpenAI(api_key=api_key)
+             ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Project\NL2SQL_BI-main\NL2SQL_BI-main\PHP_Frontend\.venv\Lib\site-packages\openai\_client.py", line 112, in __init__
+    super().__init__(
+  File "C:\Project\NL2SQL_BI-main\NL2SQL_BI-main\PHP_Frontend\.venv\Lib\site-packages\openai\_base_client.py", line 773, in __init__
+    self._client = http_client or SyncHttpxClientWrapper(
+                                  ^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: Client.__init__() got an unexpected keyword argument 'proxies'
+
+2025-05-08 16:25:28 - INFO - Response: 500 - 304 bytes
+2025-05-08 16:25:28 - INFO - 127.0.0.1 - - [08/May/2025 16:25:28] "[35m[1mPOST /api/execute-query HTTP/1.1[0m" 500 -
+2025-05-08 16:25:57 - INFO - Request: OPTIONS /api/test-connection - Client: 127.0.0.1
+2025-05-08 16:25:57 - INFO - Response: 200 - None bytes
+2025-05-08 16:25:57 - INFO - 127.0.0.1 - - [08/May/2025 16:25:57] "OPTIONS /api/test-connection HTTP/1.1" 200 -
+2025-05-08 16:25:58 - INFO - Request: POST /api/test-connection - Client: 127.0.0.1
+2025-05-08 16:25:58 - INFO - Response: 200 - 64 bytes
+2025-05-08 16:25:58 - INFO - 127.0.0.1 - - [08/May/2025 16:25:58] "POST /api/test-connection HTTP/1.1" 200 -
+2025-05-08 16:26:00 - INFO - Request: OPTIONS /api/config - Client: 127.0.0.1
+2025-05-08 16:26:00 - INFO - Response: 200 - None bytes
+2025-05-08 16:26:00 - INFO - 127.0.0.1 - - [08/May/2025 16:26:00] "OPTIONS /api/config HTTP/1.1" 200 -
+2025-05-08 16:26:01 - INFO - Request: POST /api/config - Client: 127.0.0.1
+2025-05-08 16:26:01 - INFO - Database connection pool initialized with size 5
+2025-05-08 16:26:01 - INFO - Response: 200 - 68 bytes
+2025-05-08 16:26:01 - INFO - 127.0.0.1 - - [08/May/2025 16:26:01] "POST /api/config HTTP/1.1" 200 -
+2025-05-08 16:26:11 - INFO - Request: OPTIONS /api/config - Client: 127.0.0.1
+2025-05-08 16:26:11 - INFO - Response: 200 - None bytes
+2025-05-08 16:26:11 - INFO - 127.0.0.1 - - [08/May/2025 16:26:11] "OPTIONS /api/config HTTP/1.1" 200 -
+2025-05-08 16:26:11 - INFO - Request: POST /api/config - Client: 127.0.0.1
+2025-05-08 16:26:11 - INFO - Database connection pool initialized with size 5
+2025-05-08 16:26:11 - INFO - Response: 200 - 68 bytes
+2025-05-08 16:26:11 - INFO - 127.0.0.1 - - [08/May/2025 16:26:11] "POST /api/config HTTP/1.1" 200 -
+2025-05-08 16:26:25 - INFO - Request: OPTIONS /api/execute-query - Client: 127.0.0.1
+2025-05-08 16:26:25 - INFO - Response: 200 - None bytes
+2025-05-08 16:26:25 - INFO - 127.0.0.1 - - [08/May/2025 16:26:25] "OPTIONS /api/execute-query HTTP/1.1" 200 -
+2025-05-08 16:26:26 - INFO - Request: POST /api/execute-query - Client: 127.0.0.1
+2025-05-08 16:26:26 - ERROR - Failed to generate SQL: The OpenAI client received an unexpected 'proxies' argument. Please ensure you are using the latest OpenAI Python SDK and do not pass 'proxies' to OpenAI(). Proxy support should be configured via environment variables (HTTP_PROXY/HTTPS_PROXY) only.
+Traceback (most recent call last):
+  File "c:\Project\NL2SQL_BI-main\NL2SQL_BI-main\PHP_Frontend\python_backend\app.py", line 498, in generate_sql
+    client = OpenAI(api_key=api_key)
+             ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Project\NL2SQL_BI-main\NL2SQL_BI-main\PHP_Frontend\.venv\Lib\site-packages\openai\_client.py", line 112, in __init__
+    super().__init__(
+  File "C:\Project\NL2SQL_BI-main\NL2SQL_BI-main\PHP_Frontend\.venv\Lib\site-packages\openai\_base_client.py", line 773, in __init__
+    self._client = http_client or SyncHttpxClientWrapper(
+                                  ^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: Client.__init__() got an unexpected keyword argument 'proxies'
+
+2025-05-08 16:26:26 - INFO - Response: 500 - 304 bytes
+2025-05-08 16:26:26 - INFO - 127.0.0.1 - - [08/May/2025 16:26:26] "[35m[1mPOST /api/execute-query HTTP/1.1[0m" 500 -
+2025-05-08 16:26:36 - INFO - Request: OPTIONS /api/execute-query - Client: 127.0.0.1
+2025-05-08 16:26:36 - INFO - Response: 200 - None bytes
+2025-05-08 16:26:36 - INFO - 127.0.0.1 - - [08/May/2025 16:26:36] "OPTIONS /api/execute-query HTTP/1.1" 200 -
+2025-05-08 16:26:37 - INFO - Request: POST /api/execute-query - Client: 127.0.0.1
+2025-05-08 16:26:37 - ERROR - Failed to generate SQL: The OpenAI client received an unexpected 'proxies' argument. Please ensure you are using the latest OpenAI Python SDK and do not pass 'proxies' to OpenAI(). Proxy support should be configured via environment variables (HTTP_PROXY/HTTPS_PROXY) only.
+Traceback (most recent call last):
+  File "c:\Project\NL2SQL_BI-main\NL2SQL_BI-main\PHP_Frontend\python_backend\app.py", line 498, in generate_sql
+    client = OpenAI(api_key=api_key)
+             ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Project\NL2SQL_BI-main\NL2SQL_BI-main\PHP_Frontend\.venv\Lib\site-packages\openai\_client.py", line 112, in __init__
+    super().__init__(
+  File "C:\Project\NL2SQL_BI-main\NL2SQL_BI-main\PHP_Frontend\.venv\Lib\site-packages\openai\_base_client.py", line 773, in __init__
+    self._client = http_client or SyncHttpxClientWrapper(
+                                  ^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: Client.__init__() got an unexpected keyword argument 'proxies'
+
+2025-05-08 16:26:37 - INFO - Response: 500 - 304 bytes
+2025-05-08 16:26:37 - INFO - 127.0.0.1 - - [08/May/2025 16:26:37] "[35m[1mPOST /api/execute-query HTTP/1.1[0m" 500 -
+2025-05-08 16:42:19 - INFO - Database connection pool initialized with size 5
+2025-05-08 16:42:19 - INFO - Starting Flask app
+2025-05-08 16:42:19 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.10.10.67:5000
+2025-05-08 16:42:19 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-08 16:42:29 - INFO - Request: GET /api/config - Client: 127.0.0.1
+2025-05-08 16:42:29 - INFO - Request: GET /api/examples - Client: 127.0.0.1
+2025-05-08 16:42:29 - INFO - Response: 200 - 112 bytes
+2025-05-08 16:42:29 - INFO - 127.0.0.1 - - [08/May/2025 16:42:29] "GET /api/config HTTP/1.1" 200 -
+2025-05-08 16:42:29 - INFO - Response: 200 - 310 bytes
+2025-05-08 16:42:29 - INFO - 127.0.0.1 - - [08/May/2025 16:42:29] "GET /api/examples HTTP/1.1" 200 -
+2025-05-08 16:42:35 - INFO - Request: OPTIONS /api/test-connection - Client: 127.0.0.1
+2025-05-08 16:42:35 - INFO - Response: 200 - None bytes
+2025-05-08 16:42:35 - INFO - 127.0.0.1 - - [08/May/2025 16:42:35] "OPTIONS /api/test-connection HTTP/1.1" 200 -
+2025-05-08 16:42:35 - INFO - Request: POST /api/test-connection - Client: 127.0.0.1
+2025-05-08 16:42:35 - INFO - Response: 200 - 64 bytes
+2025-05-08 16:42:35 - INFO - 127.0.0.1 - - [08/May/2025 16:42:35] "POST /api/test-connection HTTP/1.1" 200 -
+2025-05-08 16:42:43 - INFO - Request: OPTIONS /api/config - Client: 127.0.0.1
+2025-05-08 16:42:43 - INFO - Response: 200 - None bytes
+2025-05-08 16:42:43 - INFO - 127.0.0.1 - - [08/May/2025 16:42:43] "OPTIONS /api/config HTTP/1.1" 200 -
+2025-05-08 16:42:43 - INFO - Request: POST /api/config - Client: 127.0.0.1
+2025-05-08 16:42:43 - INFO - Database connection pool initialized with size 5
+2025-05-08 16:42:43 - INFO - Response: 200 - 68 bytes
+2025-05-08 16:42:43 - INFO - 127.0.0.1 - - [08/May/2025 16:42:43] "POST /api/config HTTP/1.1" 200 -
+2025-05-08 16:42:52 - INFO - Request: OPTIONS /api/execute-query - Client: 127.0.0.1
+2025-05-08 16:42:52 - INFO - Response: 200 - None bytes
+2025-05-08 16:42:52 - INFO - 127.0.0.1 - - [08/May/2025 16:42:52] "OPTIONS /api/execute-query HTTP/1.1" 200 -
+2025-05-08 16:42:53 - INFO - Request: POST /api/execute-query - Client: 127.0.0.1
+2025-05-08 16:42:57 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-08 16:43:06 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-08 16:43:06 - INFO - Successfully generated AI chart configuration
+2025-05-08 16:43:09 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-08 16:43:09 - INFO - Response: 200 - 1926 bytes
+2025-05-08 16:43:09 - INFO - 127.0.0.1 - - [08/May/2025 16:43:09] "POST /api/execute-query HTTP/1.1" 200 -
+2025-05-08 16:52:18 - INFO - Database connection pool initialized with size 5
+2025-05-08 16:52:18 - INFO - Starting Flask app
+2025-05-08 16:52:19 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.10.10.67:5000
+2025-05-08 16:52:19 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-08 16:52:24 - INFO - Request: OPTIONS /api/execute-query - Client: 127.0.0.1
+2025-05-08 16:52:24 - INFO - Response: 200 - None bytes
+2025-05-08 16:52:24 - INFO - 127.0.0.1 - - [08/May/2025 16:52:24] "OPTIONS /api/execute-query HTTP/1.1" 200 -
+2025-05-08 16:52:24 - INFO - Request: POST /api/execute-query - Client: 127.0.0.1
+2025-05-08 16:52:26 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-08 16:52:26 - ERROR - AI chart generation failed: Object of type date is not JSON serializable
+Traceback (most recent call last):
+  File "c:\Project\NL2SQL_BI-main\NL2SQL_BI-main\PHP_Frontend\python_backend\app.py", line 715, in generate_ai_chart
+    {"role": "user", "content": f"Original query: {query}\n\nData structure: {json.dumps(df_structure)}"}
+                                                                              ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lenov\AppData\Local\Programs\Python\Python311\Lib\json\__init__.py", line 231, in dumps
+    return _default_encoder.encode(obj)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lenov\AppData\Local\Programs\Python\Python311\Lib\json\encoder.py", line 200, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lenov\AppData\Local\Programs\Python\Python311\Lib\json\encoder.py", line 258, in iterencode
+    return _iterencode(o, 0)
+           ^^^^^^^^^^^^^^^^^
+  File "C:\Users\lenov\AppData\Local\Programs\Python\Python311\Lib\json\encoder.py", line 180, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type date is not JSON serializable
+
+2025-05-08 16:52:26 - ERROR - Chart generation failed: 'salesperson_id'
+Traceback (most recent call last):
+  File "c:\Project\NL2SQL_BI-main\NL2SQL_BI-main\PHP_Frontend\python_backend\app.py", line 715, in generate_ai_chart
+    {"role": "user", "content": f"Original query: {query}\n\nData structure: {json.dumps(df_structure)}"}
+                                                                              ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lenov\AppData\Local\Programs\Python\Python311\Lib\json\__init__.py", line 231, in dumps
+    return _default_encoder.encode(obj)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lenov\AppData\Local\Programs\Python\Python311\Lib\json\encoder.py", line 200, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lenov\AppData\Local\Programs\Python\Python311\Lib\json\encoder.py", line 258, in iterencode
+    return _iterencode(o, 0)
+           ^^^^^^^^^^^^^^^^^
+  File "C:\Users\lenov\AppData\Local\Programs\Python\Python311\Lib\json\encoder.py", line 180, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type date is not JSON serializable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Project\NL2SQL_BI-main\NL2SQL_BI-main\PHP_Frontend\.venv\Lib\site-packages\pandas\core\indexes\base.py", line 3802, in get_loc
+    return self._engine.get_loc(casted_key)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "index.pyx", line 153, in pandas._libs.index.IndexEngine.get_loc
+  File "index.pyx", line 182, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\\_libs\\hashtable_class_helper.pxi", line 7081, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas\\_libs\\hashtable_class_helper.pxi", line 7089, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'salesperson_id'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "c:\Project\NL2SQL_BI-main\NL2SQL_BI-main\PHP_Frontend\python_backend\app.py", line 634, in generate_chart
+    df.plot.bar(x=df.columns[0], y=numeric_cols[0], ax=plt.gca())
+  File "C:\Project\NL2SQL_BI-main\NL2SQL_BI-main\PHP_Frontend\.venv\Lib\site-packages\pandas\plotting\_core.py", line 1192, in bar
+    return self(kind="bar", x=x, y=y, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Project\NL2SQL_BI-main\NL2SQL_BI-main\PHP_Frontend\.venv\Lib\site-packages\pandas\plotting\_core.py", line 1016, in __call__
+    data = data[y].copy()
+           ~~~~^^^
+  File "C:\Project\NL2SQL_BI-main\NL2SQL_BI-main\PHP_Frontend\.venv\Lib\site-packages\pandas\core\frame.py", line 4090, in __getitem__
+    indexer = self.columns.get_loc(key)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Project\NL2SQL_BI-main\NL2SQL_BI-main\PHP_Frontend\.venv\Lib\site-packages\pandas\core\indexes\base.py", line 3809, in get_loc
+    raise KeyError(key) from err
+KeyError: 'salesperson_id'
+
+2025-05-08 16:52:28 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-08 16:52:28 - INFO - Response: 200 - 676 bytes
+2025-05-08 16:52:28 - INFO - 127.0.0.1 - - [08/May/2025 16:52:28] "POST /api/execute-query HTTP/1.1" 200 -

@@ -1,0 +1,114 @@
+/* Custom styling for NL2SQL */
+
+/* Overall styling */
+body {
+    background-color: #f8f9fa;
+}
+
+/* Pre styling for SQL output */
+pre#sqlOutput {
+    min-height: 80px;
+    font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+    background-color: #f5f5f5;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 14px;
+    padding: 15px;
+    overflow-x: auto;
+}
+
+/* Table styling */
+#resultsTable {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 1rem;
+}
+
+#resultsTable th {
+    background-color: #f1f1f1;
+    font-weight: 500;
+    text-align: left;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+/* Chart container */
+#chartContainer {
+    height: 400px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+#chartContainer img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Summary styling */
+#summaryContent {
+    font-size: 16px;
+    line-height: 1.6;
+    background-color: #f8f9fa;
+    border-radius: 5px;
+    padding: 15px;
+}
+
+/* Status indicator */
+#statusArea {
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+}
+
+/* Schema table styling */
+.schema-table {
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.schema-table th {
+    background-color: #e9ecef;
+    padding: 8px;
+}
+
+.schema-table td {
+    padding: 8px;
+}
+
+/* Query examples */
+#exampleQueries {
+    cursor: pointer;
+}
+
+/* Make sure form elements in modals look consistent */
+.modal-body .form-control, .modal-body .form-select {
+    border-radius: 4px;
+    padding: 8px 12px;
+}
+
+/* Setting tabs within modal */
+.modal .nav-tabs .nav-link.active {
+    font-weight: 500;
+    border-color: #dee2e6 #dee2e6 #fff;
+}
+
+/* Responsive adjustments for small screens */
+@media (max-width: 768px) {
+    .col-md-4 {
+        margin-top: 10px;
+    }
+    
+    .modal-dialog {
+        margin: 10px;
+    }
+}
+
+/* Highlight text */
+.highlight {
+    background-color: #ffffcc;
+    padding: 2px;
+    border-radius: 2px;
+}
