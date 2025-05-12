@@ -1,0 +1,12 @@
+Version 0.3
+- Move log files to logging directory.
+
+Version 0.4
+- Encript the setting and api key.
+- Encripted setting files store in tmp folder.
+
+Version 0.5
+- Hide OpenAI API key in API Setting.
+
+Vserion 0.6
+- Add SQLAlchemy and pymysql support for sql connection.
